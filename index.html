@@ -4,23 +4,65 @@
     <meta charset="utf-8" />
     <title>个人简历</title>
     <style>
+        body {
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .wrapper {
+            width: 100%;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 5px 15px;
+            background-color: #ffffff;
+        }
         .r {
-            margin-left: 30px;
+            margin-left: 50px;
+        }
+        .block-1 {
+            position: relative;
+            border-bottom: 1px solid;
+            height: 330px;
+        }
+        .block-1 .avatar {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .block-1 p {
+            margin: 40px 0;
         }
     </style>
 </head>
 <body>
-    <h1><strong><big><center>个人简历</center></big></strong></h1>
-    <h2><p>基本信息</p></h2>
-    <p><span class="r">姓名：周学佳</span>        <span class="r">年龄：21</span> </p>
-    <p><span class="r">性别：女</span>            <span class="r">籍贯：重庆</span></p>  
-    <p><span class="r">求职岗位：云计算</span>     <span class="r">电话：12345678910</span></p>
-    <p><span class="r">电子邮箱：123546@qq.com</span></p><br><hr/>
-    <h2><p>教育背景</p></h2>
-    <p><span class="r">于2019-09~2022-07就读重庆工程职业技术学院</span></p>
-    <p><span class="r">主修课程：python，Linux，Java，云计算导论，office高级应用，计算机组装与维护等</span></p><br><hr/>
-    <h2><p>技能特长</p></h2>
-    <p><span class="r">普通话二级证书，高新技术资格证熟练运用office等办公软件</span></p>
+<!--     <Form>
+        <span style="padding-left: 1820px;"><input type="search" placeholder="Search"></span>
+        </form> -->
+    <div class="wrapper">
+        <h1><strong><big><center>个人简历</center></big></strong></h1>
+        <div class="block-1">  
+            <img class="avatar" src="https://t7.baidu.com/it/u=1092574912,855301095&fm=193&f=GIF"width="100px",height="205"/>
+            <h2><p>基本信息</p></h2>
+            <p><span class="r">姓名：周学佳</span>        <span class="r">年龄：21</span> </p>
+            <p><span class="r">性别：女</span>            <span class="r">籍贯：重庆</span></p>  
+            <p><span class="r">求职岗位：云计算</span>     <span class="r">电话：12345678910</span></p>
+            <p><span class="r">电子邮箱：123546@qq.com</span></p>
+        </div>
+        
+        <div class="block-1">  
+            <h2><p>教育背景</p></h2>
+            <p><span class="r">于2019-09~2022-07就读重庆工程职业技术学院</span></p>
+            <p><span class="r">主修课程：python，Linux，Java，云计算导论，office高级应用，计算机组装与维护等</span></p>
+        </div>
+
+        <div class="block-1">
+            <h2><p>技能特长</p></h2>
+            <p><span class="r">普通话二级证书，高新技术资格证熟练运用office等办公软件</span></p>
+        </div>
+    </div>
      <!--<p><span style="padding-left: 20px;">普通话二级证书，高新技术资格证熟练运用office等办公软件</span></p>
    文字之间的空格 使用style，两种方法，使用style块，行中单独使用-->
    <!-- <dl>
