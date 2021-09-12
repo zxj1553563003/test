@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 element.style {
 }
@@ -16,6 +15,4 @@ body {
     display: block;
     margin: 8px;
 }
-=======
-fgdjfjdskvjkjfdnv
->>>>>>> fae65cf2d180e51dae86fa80bf69a31426ea2935
+test commit
