@@ -1,72 +1,119 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>个人简历-周学佳</title>
-    <style>
-        body {
-            background-color: #f1f1f1;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            margin-top: 0;
-        }
-        .wrapper {
-            width: 100%;
-            max-width: 750px;
-            margin: 0 auto;
-            padding: 5px 15px;
-            background-color: #ffffff;
-        }
-        .r {
-            margin-left: 50px;
-        }
-        .block-1 {
-            position: relative;
-            border-bottom: 1px solid;
-            height: 330px;
-        }
-        .block-1 .avatar {
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-        .block-1 p {
-            margin: 40px 0;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>周学佳的个人简历</title>
+    <meta name="theme-color" content="#ffc91d"/>
+    <link rel="icon" href="static/img/12.jpg" sizes="32x32"/>
+    <link rel="icon" href="static/img/12.jpg" sizes="90x90"/>
+    <link href="static/kico.css" rel="stylesheet" type="text/css"/>
+    <link href="static/moreduo.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
 </head>
 <body>
-<!--     <Form>
-        <span style="padding-left: 1820px;"><input type="search" placeholder="Search"></span>
-        </form> -->
-    <div class="wrapper">
-        <h1><strong><big><center>个人简历</center></big></strong></h1>
-        <div class="block-1">  
-            <img class="avatar" src="./1.jpg"width="100px",height="205"/>
-            <h2><p>基本信息</p></h2>
-            <p><span class="r">姓名：周学佳</span>        <span class="r">年龄：21</span> </p>
-            <p><span class="r">性别：女</span>            <span class="r">籍贯：重庆</span></p>  
-            <p><span class="r">求职岗位：云计算</span>     <span class="r">电话：12345678910</span></p>
-            <p><span class="r">电子邮箱：123546@qq.com</span></p>
-        </div>
-        
-        <div class="block-1">  
-            <h2><p>教育背景</p></h2>
-            <p><span class="r">于2019-09~2022-07就读重庆工程职业技术学院</span></p>
-            <p><span class="r">主修课程：python，Linux，Java，云计算导论，office高级应用，计算机组装与维护等</span></p>
-        </div>
-
-        <div class="block-1">
-            <h2><p>技能特长</p></h2>
-            <p><span class="r">普通话二级证书，高新技术资格证熟练运用office等办公软件</span></p>
-        </div>
+<aside class="sidebar">
+    <div class="12.jpg">
+        <img src="static/img/12.jpg" title="周学佳"/>
     </div>
-     <!--<p><span style="padding-left: 20px;">普通话二级证书，高新技术资格证熟练运用office等办公软件</span></p>
-   文字之间的空格 使用style，两种方法，使用style块，行中单独使用-->
-   <!-- <dl>
-       <dt>技能</dt>
-       <dd>普通话二级证书，高新技术资格证熟练运用office等办公软件</dd>
-   </dl> -->
+    <nav class="nav">
+        <a href="#info">资料</a>
+        <a href="#skills">技能</a>
+        <a href="#story">经历</a>
+    </nav>
+</aside>
+<main>
+    <section id="info">
+        <div class="wrap">
+            <h2 class="title">个人资料</h2>
+            <div class="row">
+                <div class="col-l-4">
+                    <p>姓名：周学佳</p>
+                    <p>性别：女</p>
+                    <p>年龄：21</p>
+                    <p>英文名：Survivor</p>
+                    <p>学历：大学专科</p>
+                </div>
+                <div class="col-l-4">
+                    <p>QQ：1553563003</p>
+                    <p>邮箱：<a href="mailto:1553563003@qq.com">1553563003@qq.com</a></p>
+                </div>
+                <div class="col-l-4">
+                    <p>熟练运用办公自动化软件，勤奋好学，踏实肯干，动手能力强，认真负责，
+                        有很强的社会责任感；坚毅不拔，吃苦耐劳，喜欢和勇于迎接新挑战。
+                        对待工作认真负责，积极主动，能吃苦耐劳，具有一定的抗压能力，能够较快接受适应新环境，善于沟通，
+                        具有良好的团队合作精神。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="wrap">
+            <h2 class="title">掌握的技能</h2>
+            <div class="row scrollable">
+                <div class="col-s-6 col-m-4 center-fixed">
+                 
+                    </div>
+                    <div class="skills-title">
+                        <p>熟悉Java、python、MySQL操作</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                  
+                    </div>
+                    <div class="skills-title">
+                        <p>熟悉虚拟化、open stack、nginx搭建</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                 
+                    </div>
+                    <div class="skills-title">
+                        <p>熟悉Linux系统命令、Windows服务配置与管理</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+                        </div>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="wrap">
+            <h2 class="title">个人经历</h2>
+            <div class="row">
+                <div class="col-m-8">
+                    <ul class="timeline">
+                        <li>2020年1月
+                            完成Windows server2012部署DHCP、DNS、IlS、winmail、WEB、负载均衡等服务配置
+                           </li>
+                        <li> 2020年11月
+                            完成linux部署DHCP、DNS、NFS、Web和FTP服务器的安装和配置，学会Linux对各种基础服务的安装与部署
+                            </li>
+                        <li>2021年6月
+                            完成Java面向对象编程--图书展示系统</li>
+                    </ul>
+                </div>
+                <div class="col-m-4 center-fixed">
+                    <img src="static/img/story.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2021.10.31</p>
+        <p>最终解释归作者所有</p>
+    </footer>
+</main>
+
+<script src="static/kico.js"></script>
+<script src="static/moreduo.js"></script>
+
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
+</body>
 </html>
